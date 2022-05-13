@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pink-header{
+  background-color: fuchsia;
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-item: center;
+}
+
+.lightpink-box{
+  background-color: pink;
+  margin: 0 10px;
+  flex-basis: 140px;
+  height: 70px;
+}
+
+.lightpink-box:first-child{
+  margin-right: auto;
+}
