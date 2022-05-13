@@ -23,3 +23,48 @@
 .lightpink-box:first-child{
   margin-right: auto;
 }
+
+.black-main{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.limegreen-box{
+  background-color: #CCFFCC;
+  width: 300px;
+}
+
+.green-box{
+  background-color: #00BB00;
+  max-width: 700px;
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.yellow-box{
+  background-color: #FFFF44;
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+}
+
+.blue-footer{
+  background-color: #3399FF;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lightblue-box{
+  background-color: #BAD3FF;
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
+}
