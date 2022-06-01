@@ -86,7 +86,7 @@ footer{
     margin: 0 auto 20px;
   }
   
-  .box:last-child{
+  .box:last-child{  /*再提出1, 6/1追加分*/
     margin: 0 auto;
   }
 
